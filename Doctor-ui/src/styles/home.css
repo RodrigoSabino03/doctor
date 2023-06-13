@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home-container h2 {
+    margin-top: 40px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+.home-container h4{
+    margin: 20px 0 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.btn-category {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.btn-category span {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+
+}

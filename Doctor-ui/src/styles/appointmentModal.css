@@ -1,0 +1,91 @@
+.header-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-modal button {
+    background: transparent;
+    border: 0;
+
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FF1575;
+
+    margin-right: 20px;
+}
+
+.title-modal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 12px;
+
+}
+
+.modal-appointment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-appointment label {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-appointment input, .modal-appointment select {
+    margin-bottom: 16px;
+
+    background: transparent;
+    border: 2px solid #FF1575;
+    border-radius: 8px;
+
+    padding: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.modal-appointment input:focus, .modal-appointment select:focus {
+    box-shadow: 0 0 0 0;
+    border: 2px solid #FF1575;
+    outline: 0;
+}
+
+.double-input {
+    display: flex;
+    
+}
+
+
+
+#input-mini {
+    width: 290px;
+    height: 50px;
+}
+
+#input-full {
+    width: 600px;
+    height: 50px;
+}

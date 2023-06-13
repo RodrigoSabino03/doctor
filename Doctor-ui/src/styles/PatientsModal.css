@@ -1,0 +1,125 @@
+.modal-content {
+    width: 100%;
+    max-width: 80%;
+    background: #f8f8ff;
+    padding: 2.5rem;
+    position: relative;
+    border-radius: 0.24rem;
+}
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-modal button {
+    background: transparent;
+    border: 0;
+
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FF1575;
+
+    margin-right: 20px;
+}
+
+.title-modal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 12px;
+
+}
+.modal-patients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-patients label {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-patients input, .modal-patients select {
+    margin-bottom: 16px;
+
+    background: transparent;
+    border: 2px solid #FF1575;
+    border-radius: 8px;
+
+    padding: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.modal-patients input:focus, .modal-patients select:focus {
+    box-shadow: 0 0 0 0;
+    border: 2px solid #FF1575;
+    outline: 0;
+}
+
+.double-input {
+    display: flex;
+}
+
+.double-input label:first-child{
+    margin-right: 20px;
+}
+
+#input-mini {
+    width: 290px;
+    height: 50px;
+}
+
+#input-full {
+    width: 600px;
+    height: 50px;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+

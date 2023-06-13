@@ -1,0 +1,18 @@
+.button {
+    height: 40px;
+    width: 150px;
+
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    background: #FF1575;
+    color: #FFF;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    cursor: pointer;
+}
